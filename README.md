@@ -49,6 +49,8 @@ The app uses a **Foreground Service (FGS)** to run long-running compute tasks, e
 
 ## Implementation Details
 
+Here is the attached file of Working https://drive.google.com/file/d/1KjrlChB3tXNX82fF2Bau_4oYmgGRTR1-/view?usp=sharing
+
 ### Threading & Backpressure
 
 * Computation runs in a **single coroutine** on `Dispatchers.Default`.
@@ -89,5 +91,6 @@ The app uses a **Foreground Service (FGS)** to run long-running compute tasks, e
 * No network or database needed; all computation is local.
 * Demonstrates **off-main-thread compute**, proper **foreground service usage**, and **power-awareness**.
 * Focuses on **performance and responsiveness** rather than UI polish.
+
 
 
